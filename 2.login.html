@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Login | Observatório</title>
+
+  <link rel="stylesheet" href="2.login.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <main class="login-page">
+
+    <section class="login-card">
+
+
+      <div class="login-image">
+        <img src="homefoto.png" alt="Pessoas assistindo a uma apresentação">
+      </div>
+
+      <div class="login-area">
+
+        <a href="1.home.html" class="voltar">
+          ← Voltar
+        </a>
+
+        <div class="login-box">
+
+          <h1>Login</h1>
+
+          <p class="login-subtitle">
+            Acesse sua conta
+          </p>
+
+          <form id="loginForm">
+
+            <div class="input-group">
+              <i class="fa-regular fa-envelope"></i>
+
+              <input
+                id="email"
+                type="email"
+                placeholder="Email"
+                required>
+            </div>
+
+            <div class="input-group">
+              <i class="fa-solid fa-lock"></i>
+
+              <input
+                id="senha"
+                type="password"
+                placeholder="Senha"
+                required>
+
+              <i class="fa-regular fa-eye eye"></i>
+            </div>
+
+            <div class="opcoes">
+
+              <label>
+                <input type="checkbox">
+                Lembrar-me
+              </label>
+
+              <a href="recuperar-senha.html">
+                Esqueci minha senha
+              </a>
+
+            </div>
+
+            <button type="submit">
+              Entrar
+            </button>
+
+          </form>
+
+          <div class="divider">
+            <span></span>
+            <p>Continue com</p>
+            <span></span>
+          </div>
+
+          <div class="social">
+
+            <a href="#" aria-label="Google">
+              <i class="fa-brands fa-google"></i>
+            </a>
+
+            <a href="#" aria-label="Microsoft">
+              <i class="fa-brands fa-microsoft"></i>
+            </a>
+
+            <a href="#" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+          </div>
+
+          <p class="criar-conta">
+            Ainda não possui uma conta?
+            <a href="cadastro.html">Criar conta</a>
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="2.login.js"></script>
+
+</body>
+</html>

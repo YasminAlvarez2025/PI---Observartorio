@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfólio | Observatório</title>
+
+  <link rel="stylesheet" href="8.portfolio.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<aside class="sidebar">
+
+  <a href="index.html" class="logo">
+    <div class="logo-icon">◆</div>
+    <div>
+      <h2>Observatório</h2>
+      <span>de Projetos Integradores</span>
+    </div>
+  </a>
+
+  <nav class="menu">
+    <a href="4.painel-aluno.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <a href="6.meus-projetos.html"><i class="fa-regular fa-folder"></i> Meus Projetos</a>
+    <a href="5.novo-projeto.html"><i class="fa-solid fa-plus"></i> Novo Projeto</a>
+    <a href="7.avaliacoes.html"><i class="fa-regular fa-clipboard"></i> Avaliações</a>
+    <a href="8.portfolio.html" class="active"><i class="fa-regular fa-id-card"></i> Portfólio</a>
+    <a href="9.oportunidades.html"><i class="fa-regular fa-briefcase"></i> Oportunidades</a>
+    <a href="10.perfil.html"><i class="fa-regular fa-user"></i> Perfil</a>
+    <a href="11.configuracoes.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+  </nav>
+
+  <div class="support">
+    <i class="fa-solid fa-headset"></i>
+    <div>
+      <strong>Precisa de ajuda?</strong>
+      <a href="#">Fale com o suporte</a>
+    </div>
+  </div>
+
+  <a href="login.html" class="logout">
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    Sair
+  </a>
+
+</aside>
+
+<main class="dashboard">
+
+  <header class="topbar">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Buscar projetos, certificados, competências...">
+    </div>
+
+    <div class="user-area">
+      <div class="notification">
+        <i class="fa-regular fa-bell"></i>
+        <span>3</span>
+      </div>
+
+      <div class="user-avatar">A</div>
+
+      <div>
+        <strong>Alice</strong>
+        <p>Aluna</p>
+      </div>
+
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div>
+      <h1>Meu Portfólio</h1>
+      <p>Organize seus projetos, competências e certificados em um perfil profissional.</p>
+    </div>
+
+    <a href="#" class="btn-primary">
+      <i class="fa-regular fa-eye"></i>
+      Ver portfólio público
+    </a>
+  </section>
+
+  <section class="portfolio-hero">
+
+    <div class="profile-card">
+      <div class="profile-avatar">A</div>
+
+      <div class="profile-info">
+        <h2>Alice Souza</h2>
+        <p>Aluna de Análise e Desenvolvimento de Sistemas</p>
+
+        <div class="profile-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>UX/UI</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-status">
+      <h3>Perfil 82% completo</h3>
+      <div class="progress-bar">
+        <span></span>
+      </div>
+      <p>Adicione mais certificados e links para fortalecer seu portfólio.</p>
+    </div>
+
+  </section>
+
+  <section class="stats-grid">
+
+    <div class="stat-card">
+      <i class="fa-regular fa-folder"></i>
+      <div>
+        <h3>4</h3>
+        <p>Projetos</p>
+        <span>No portfólio</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-circle-check"></i>
+      <div>
+        <h3>2</h3>
+        <p>Aprovados</p>
+        <span>Publicados</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-star"></i>
+      <div>
+        <h3>9.2</h3>
+        <p>Média geral</p>
+        <span>Avaliações</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-id-badge"></i>
+      <div>
+        <h3>8</h3>
+        <p>Certificados</p>
+        <span>Disponíveis</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="main-grid">
+
+    <div class="projects-area">
+
+      <div class="section-title">
+        <h2>Projetos no portfólio</h2>
+        <a href="meus-projetos.html">Gerenciar projetos <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="symploke.png" alt="Projeto Symploke">
+            <span class="status green">Publicado</span>
+          </div>
+
+          <div class="project-info">
+            <h3>Symploke</h3>
+            <p class="meta">Educação • ADS</p>
+            <p>Plataforma de cursos profissionalizantes para grupos minoritários.</p>
+
+            <div class="project-details">
+              <span><i class="fa-solid fa-star"></i> 9.6</span>
+              <span>Projeto destaque</span>
+            </div>
+
+            <a href="#" class="details-link">Ver detalhes <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="techdoc.jpeg" alt="Projeto TechDocs">
+            <span class="status blue">Publicação</span>
+          </div>
+
+          <div class="project-info">
+            <h3>TechDocs</h3>
+            <p class="meta">Tecnologia • ADS</p>
+            <p>Repositório digital para organização de Projetos Integradores.</p>
+
+            <div class="project-details">
+              <span><i class="fa-solid fa-star"></i> 8.8</span>
+              <span>Publicado</span>
+            </div>
+
+            <a href="#" class="details-link">Ver detalhes <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="impact-banner">
+        <div>
+          <i class="fa-solid fa-award"></i>
+        </div>
+
+        <div>
+          <h3>Seu portfólio é sua vitrine profissional.</h3>
+          <p>Mantenha seus projetos atualizados para destacar suas competências para professores e empresas.</p>
+        </div>
+
+        <a href="novo-projeto.html">
+          Adicionar projeto <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <aside class="right-panel">
+
+      <div class="panel-card">
+        <h3>Competências</h3>
+
+        <div class="skill-item">
+          <div>
+            <p>Front-end</p>
+            <span>HTML, CSS, JavaScript</span>
+          </div>
+          <strong>85%</strong>
+        </div>
+
+        <div class="skill-item">
+          <div>
+            <p>Prototipação</p>
+            <span>Figma e UX/UI</span>
+          </div>
+          <strong>72%</strong>
+        </div>
+
+        <div class="skill-item">
+          <div>
+            <p>Banco de dados</p>
+            <span>SQL e modelagem</span>
+          </div>
+          <strong>64%</strong>
+        </div>
+      </div>
+
+      <div class="panel-card">
+        <h3>Certificados recentes</h3>
+
+        <div class="certificate-item">
+          <i class="fa-regular fa-file-lines"></i>
+          <div>
+            <p>Introdução ao GitHub</p>
+            <span>Emitido em 12/05/2024</span>
+          </div>
+        </div>
+
+        <div class="certificate-item">
+          <i class="fa-regular fa-file-lines"></i>
+          <div>
+            <p>HTML e CSS</p>
+            <span>Emitido em 20/04/2024</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-card tip-card">
+        <h3><i class="fa-regular fa-lightbulb"></i> Dica</h3>
+        <p>
+          Portfólios com descrição clara, tecnologias utilizadas e links externos tendem a ter mais destaque.
+        </p>
+      </div>
+
+    </aside>
+
+  </section>
+
+</main>
+
+</body>
+</html>
