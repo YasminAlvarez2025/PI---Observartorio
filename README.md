@@ -312,6 +312,25 @@ Observatorio-Projetos-Integradores/
 └── cadastro.html
 ```
 
+# Acesso Login Plataforma
+
+## Aluno
+- email:aluno@edu.pe.senac.br
+- senha: 1234
+
+## Professor
+- email: professor@edu.pe.senac.br
+- senha: 1234
+
+## Administrador
+- email: administrador@edu.pe.senac.br
+- senha: 1234
+
+## Empresa 
+- email: empresa@edu.pe.senac.br
+- senha: 1234
+
+
 # Direcionamento
 
 - [x] Home
