@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Talentos | Observatório</title>
+
+  <link rel="stylesheet" href="25.talentos-empresa.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <a href="index.html" class="logo">
+      <div class="logo-icon">◆</div>
+      <div>
+        <h2>Observatório</h2>
+        <span>Empresas Parceiras</span>
+      </div>
+    </a>
+
+    <nav class="menu">
+      <a href="23.painel-empresa.html">
+        <i class="fa-solid fa-house"></i> Dashboard
+      </a>
+      <a href="24.projetos-empresa.html">
+        <i class="fa-regular fa-folder"></i> Projetos
+      </a>
+      <a href="25.talentos-empresa.html" class="active">
+        <i class="fa-solid fa-user-graduate"></i> Talentos
+      </a>
+      <a href="26.tecnologias-empresa.html">
+        <i class="fa-solid fa-code"></i> Tecnologias
+      </a>
+      <a href="27.destaques-empresa.html">
+        <i class="fa-solid fa-star"></i> Destaques
+      </a>
+      <a href="28.configuracoes-empresa.html">
+        <i class="fa-solid fa-gear"></i> Configurações
+      </a>
+    </nav>
+
+    <div class="support">
+      <i class="fa-solid fa-building"></i>
+      <div>
+        <strong>Empresa parceira</strong>
+        <a href="#">Ver perfil institucional</a>
+      </div>
+    </div>
+
+    <a href="login.html" class="logout">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+      Sair
+    </a>
+
+  </aside>
+
+  <main class="dashboard">
+
+    <header class="topbar">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar talentos, tecnologias ou projetos...">
+      </div>
+
+      <div class="user-area">
+        <div class="notification">
+          <i class="fa-regular fa-bell"></i>
+          <span>2</span>
+        </div>
+
+        <div class="user-avatar">E</div>
+
+        <div class="user-info">
+          <strong>Empresa Parceira</strong>
+          <p>Recrutamento</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-header">
+      <div>
+        <span>Mapa de Talentos</span>
+        <h1>Talentos</h1>
+        <p>Conheça alunos em destaque, suas habilidades técnicas, projetos desenvolvidos e áreas de maior compatibilidade.</p>
+      </div>
+
+      <a href="#" class="export-btn">
+        <i class="fa-solid fa-user-check"></i>
+        Ver compatíveis
+      </a>
+    </section>
+
+    <section class="stats-grid">
+
+      <div class="stat-card">
+        <i class="fa-solid fa-user-graduate"></i>
+        <div>
+          <h3>132</h3>
+          <p>Alunos mapeados</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-code"></i>
+        <div>
+          <h3>24</h3>
+          <p>Skills identificadas</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-star"></i>
+        <div>
+          <h3>18</h3>
+          <p>Talentos destaque</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-briefcase"></i>
+        <div>
+          <h3>42</h3>
+          <p>Compatíveis com vagas</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="talents-section">
+
+      <div class="section-title">
+        <h2>Alunos em destaque</h2>
+        <a href="#">Mais compatíveis <i class="fa-solid fa-chevron-down"></i></a>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter active">Todos</button>
+        <button class="filter">Front-end</button>
+        <button class="filter">Back-end</button>
+        <button class="filter">Dados</button>
+        <button class="filter">UX/UI</button>
+        <button class="filter">Mobile</button>
+      </div>
+
+      <div class="talents-grid">
+
+        <article class="talent-card">
+          <div class="talent-top">
+            <div class="talent-avatar">RM</div>
+            <span class="match-tag">92% match</span>
+          </div>
+
+          <h3>Ricardo Malta</h3>
+          <p>Desenvolvimento front-end, prototipação e criação de interfaces para plataformas acadêmicas.</p>
+
+          <div class="skill-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>UX/UI</span>
+          </div>
+
+          <div class="talent-info">
+            <span><i class="fa-regular fa-folder"></i> 3 projetos</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> ADS 2A</span>
+          </div>
+
+          <div class="talent-footer">
+            <strong>Projeto: Symploke</strong>
+            <a href="#">Ver perfil</a>
+          </div>
+        </article>
+
+        <article class="talent-card">
+          <div class="talent-top">
+            <div class="talent-avatar">JS</div>
+            <span class="match-tag">88% match</span>
+          </div>
+
+          <h3>João Silva</h3>
+          <p>Perfil com foco em banco de dados, automação de processos e desenvolvimento back-end.</p>
+
+          <div class="skill-list">
+            <span>Python</span>
+            <span>MySQL</span>
+            <span>APIs</span>
+            <span>Power BI</span>
+          </div>
+
+          <div class="talent-info">
+            <span><i class="fa-regular fa-folder"></i> 4 projetos</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> ADS 2A</span>
+          </div>
+
+          <div class="talent-footer">
+            <strong>Projeto: TechDoc</strong>
+            <a href="#">Ver perfil</a>
+          </div>
+        </article>
+
+        <article class="talent-card">
+          <div class="talent-top">
+            <div class="talent-avatar">AL</div>
+            <span class="match-tag">85% match</span>
+          </div>
+
+          <h3>Ana Lima</h3>
+          <p>Atuação em pesquisa com usuários, prototipação, acessibilidade e design de experiência.</p>
+
+          <div class="skill-list">
+            <span>Figma</span>
+            <span>UX Research</span>
+            <span>UI Design</span>
+            <span>Acessibilidade</span>
+          </div>
+
+          <div class="talent-info">
+            <span><i class="fa-regular fa-folder"></i> 2 projetos</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> ADS 3A</span>
+          </div>
+
+          <div class="talent-footer">
+            <strong>Projeto: Olhos Abertos</strong>
+            <a href="#">Ver perfil</a>
+          </div>
+        </article>
+
+        <article class="talent-card">
+          <div class="talent-top">
+            <div class="talent-avatar">MS</div>
+            <span class="match-tag">81% match</span>
+          </div>
+
+          <h3>Mariana Santos</h3>
+          <p>Desenvolvimento mobile, organização de fluxos e criação de soluções para produtividade acadêmica.</p>
+
+          <div class="skill-list">
+            <span>Flutter</span>
+            <span>Firebase</span>
+            <span>Figma</span>
+            <span>Mobile</span>
+          </div>
+
+          <div class="talent-info">
+            <span><i class="fa-regular fa-folder"></i> 2 projetos</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> ADS 3B</span>
+          </div>
+
+          <div class="talent-footer">
+            <strong>Projeto: EcoTrack</strong>
+            <a href="#">Ver perfil</a>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

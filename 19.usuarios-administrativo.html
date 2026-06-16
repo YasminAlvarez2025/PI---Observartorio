@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Painel Administrativo | Observatório</title>
+
+  <link rel="stylesheet" href="19.usuarios-administrativo.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <a href="index.html" class="logo">
+      <div class="logo-icon">◆</div>
+      <div>
+        <h2>Observatório</h2>
+        <span>Projetos Integradores</span>
+      </div>
+    </a>
+
+    <nav class="menu">
+      <a href="18.painel-administrativo.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+      <a href="19.usuarios-administrativo.html" class="active"><i class="fa-solid fa-users"></i> Usuários</a>
+      <a href="20.projetos-administrativos.html"><i class="fa-regular fa-folder"></i> Projetos</a>
+      <a href="21.turmas-administrador.html"><i class="fa-solid fa-graduation-cap"></i> Turmas</a>
+      <a href="22.relatorios-administrativo.html"><i class="fa-solid fa-chart-simple"></i> Relatórios</a>
+      <a href="23.configuracoes-administrativo.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+    </nav>
+
+    <div class="support">
+      <i class="fa-solid fa-headset"></i>
+      <div>
+        <strong>Precisa de ajuda?</strong>
+        <a href="#">Fale com o suporte</a>
+      </div>
+    </div>
+
+    <a href="login.html" class="logout">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+      Sair
+    </a>
+
+  </aside>
+
+  <main class="dashboard">
+
+    <header class="topbar">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar usuários, projetos, turmas...">
+      </div>
+
+      <div class="user-area">
+        <div class="notification">
+          <i class="fa-regular fa-bell"></i>
+          <span>3</span>
+        </div>
+
+        <div class="user-avatar">C</div>
+
+        <div class="user-info">
+          <strong>Coordenador</strong>
+          <p>Administrador</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-header">
+
+  <div>
+    <span class="page-label">Gestão de Usuários</span>
+    <h1>Usuários</h1>
+    <p>Gerencie alunos, professores e administradores da plataforma.</p>
+  </div>
+
+  <a href="#" class="new-user-btn">
+    <i class="fa-solid fa-user-plus"></i>
+    Novo Usuário
+  </a>
+
+</section>
+
+<section class="stats-grid">
+
+  <div class="stat-card">
+    <h3>245</h3>
+    <p>Total de usuários</p>
+  </div>
+
+  <div class="stat-card">
+    <h3>210</h3>
+    <p>Alunos</p>
+  </div>
+
+  <div class="stat-card">
+    <h3>30</h3>
+    <p>Professores</p>
+  </div>
+
+  <div class="stat-card">
+    <h3>5</h3>
+    <p>Administradores</p>
+  </div>
+
+</section>
+
+<section class="users-section">
+
+  <div class="section-title">
+    <h2>Lista de usuários</h2>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter active">Todos</button>
+    <button class="filter">Alunos</button>
+    <button class="filter">Professores</button>
+    <button class="filter">Administradores</button>
+  </div>
+
+  <div class="users-table">
+
+    <div class="table-header">
+      <span>Nome</span>
+      <span>Perfil</span>
+      <span>Email</span>
+      <span>Status</span>
+      <span>Ações</span>
+    </div>
+
+    <div class="table-row">
+      <span>Julia Cabral</span>
+      <span>Aluna</span>
+      <span>julia@edu.pe.senac.br</span>
+      <span class="status active-status">Ativo</span>
+      <span><i class="fa-solid fa-ellipsis"></i></span>
+    </div>
+
+    <div class="table-row">
+      <span>Juliana Souza</span>
+      <span>Professora</span>
+      <span>juliana@edu.pe.senac.br</span>
+      <span class="status active-status">Ativo</span>
+      <span><i class="fa-solid fa-ellipsis"></i></span>
+    </div>
+
+    <div class="table-row">
+      <span>Marcos Silva</span>
+      <span>Aluno</span>
+      <span>marcos@edu.pe.senac.br</span>
+      <span class="status inactive-status">Inativo</span>
+      <span><i class="fa-solid fa-ellipsis"></i></span>
+    </div>
+
+    <div class="table-row">
+      <span>Maria Pimentel</span>
+      <span>Aluna</span>
+      <span>maria@edu.pe.senac.br</span>
+      <span class="status active-status">Ativo</span>
+      <span><i class="fa-solid fa-ellipsis"></i></span>
+    </div>
+
+    <div class="table-row">
+      <span>Ricardo Malta</span>
+      <span>Aluno</span>
+      <span>ricardo@edu.pe.senac.br</span>
+      <span class="status active-status">Ativo</span>
+      <span><i class="fa-solid fa-ellipsis"></i></span>
+    </div>
+    
+
+  </div>
+
+</section>
+
+  </main>
+
+</body>
+</html>
