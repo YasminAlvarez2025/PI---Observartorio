@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliações | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/student-evaluations.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<aside class="sidebar">
+  <a href="../index.html" class="logo">
+    <div class="logo-icon">◆</div>
+    <div>
+      <h2>Observatório</h2>
+      <span>de Projetos Integradores</span>
+    </div>
+  </a>
+
+  <nav class="menu">
+    <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <a href="my-projects.html"><i class="fa-regular fa-folder"></i> Meus Projetos</a>
+    <a href="new-project.html"><i class="fa-solid fa-plus"></i> Novo Projeto</a>
+    <a href="evaluations.html" class="active"><i class="fa-regular fa-clipboard"></i> Avaliações</a>
+    <a href="portfolio.html"><i class="fa-regular fa-id-card"></i> Portfólio</a>
+    <a href="opportunities.html"><i class="fa-regular fa-briefcase"></i> Oportunidades</a>
+    <a href="profile.html"><i class="fa-regular fa-user"></i> Perfil</a>
+    <a href="11.configuracoes.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+  </nav>
+
+  <div class="support">
+    <i class="fa-solid fa-headset"></i>
+    <div>
+      <strong>Precisa de ajuda?</strong>
+      <a href="#">Fale com o suporte</a>
+    </div>
+  </div>
+
+  <a href="../auth/login.html" class="logout">
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    Sair
+  </a>
+</aside>
+
+<main class="dashboard">
+
+  <header class="topbar">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Buscar projetos, avaliações, oportunidades...">
+    </div>
+
+    <div class="user-area">
+      <div class="notification">
+        <i class="fa-regular fa-bell"></i>
+        <span>3</span>
+      </div>
+
+      <div class="user-avatar">A</div>
+
+      <div>
+        <strong>Alice</strong>
+        <p>Aluna</p>
+      </div>
+
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div>
+      <h1>Avaliações</h1>
+      <p>Acompanhe o status e o feedback dos seus projetos.</p>
+    </div>
+
+    <div class="filters">
+      <a href="#" class="active">Todos</a>
+      <a href="#">Em avaliação</a>
+      <a href="#">Avaliados</a>
+      <a href="#">Pendentes</a>
+    </div>
+  </section>
+
+  <section class="stats-grid">
+    <div class="stat-card">
+      <i class="fa-regular fa-clipboard"></i>
+      <div>
+        <h3>3</h3>
+        <p>Avaliados</p>
+        <span>Projetos concluídos</span>
+      </div>
+    </div>
+
+    <div class="stat-card yellow-card">
+      <i class="fa-regular fa-clock"></i>
+      <div>
+        <h3>2</h3>
+        <p>Em avaliação</p>
+        <span>Aguardando parecer</span>
+      </div>
+    </div>
+
+    <div class="stat-card blue-card">
+      <i class="fa-solid fa-rotate"></i>
+      <div>
+        <h3>1</h3>
+        <p>Revisão solicitada</p>
+        <span>Correções necessárias</span>
+      </div>
+    </div>
+
+    <div class="stat-card purple-card">
+      <i class="fa-regular fa-star"></i>
+      <div>
+        <h3>9.2</h3>
+        <p>Média geral</p>
+        <span>Das avaliações</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="table-card">
+    <div class="table-header">
+      <span>Projeto</span>
+      <span>Professor(a)</span>
+      <span>Status</span>
+      <span>Nota</span>
+      <span>Data</span>
+      <span>Ação</span>
+    </div>
+
+    <div class="table-row">
+      <div class="project-cell">
+        <img src="../assets/images/symploke.png" alt="Symploke">
+        <div>
+          <h3>Symploke</h3>
+          <p>Educação • ADS</p>
+        </div>
+      </div>
+
+      <div class="teacher-cell">
+        <div class="avatar">A</div>
+        <div>
+          <p>Angela Regina</p>
+          <span>avaliadora</span>
+        </div>
+      </div>
+
+      <div>
+        <span class="badge green">Avaliado</span>
+        <p class="small">Projeto aprovado</p>
+      </div>
+
+      <strong class="grade">9,8</strong>
+      <p>12/06/2026</p>
+
+      <div class="actions">
+        <a href="#" class="btn-outline">Ver avaliação</a>
+        <button><i class="fa-solid fa-download"></i></button>
+      </div>
+    </div>
+
+    <div class="table-row">
+      <div class="project-cell">
+        <img src="../assets/images/olhosabertos.jpeg" alt="Olhos Abertos">
+        <div>
+          <h3>Olhos Abertos</h3>
+          <p>Tecnologia • ADS</p>
+        </div>
+      </div>
+
+      <div class="teacher-cell">
+        <div class="avatar">G</div>
+        <div>
+          <p>Guibson Barros</p>
+          <span>Avaliador</span>
+        </div>
+      </div>
+
+      <div>
+        <span class="badge yellow">Em avaliação</span>
+        <p class="small">Aguardando parecer</p>
+      </div>
+
+      <strong>-</strong>
+      <p>09/06/2026</p>
+
+      <div class="actions">
+        <a href="#" class="btn-outline">Acompanhar</a>
+        <button><i class="fa-regular fa-eye"></i></button>
+      </div>
+    </div>
+
+    <div class="table-row">
+      <div class="project-cell">
+        <img src="../assets/images/techdoc.jpeg" alt="TechDocs">
+        <div>
+          <h3>TechDocs</h3>
+          <p>Tecnologia • ADS</p>
+        </div>
+      </div>
+
+      <div class="teacher-cell">
+        <div class="avatar">H</div>
+        <div>
+          <p>Heuryk Wylk</p>
+          <span>Avaliador</span>
+        </div>
+      </div>
+
+      <div>
+        <span class="badge blue">Revisão solicitada</span>
+        <p class="small">Preparação para publicação</p>
+      </div>
+
+      <strong>-</strong>
+      <p>05/06/2026</p>
+
+      <div class="actions">
+        <a href="#" class="btn-outline">Editar projeto</a>
+        <button><i class="fa-solid fa-pen"></i></button>
+      </div>
+    </div>
+
+    <div class="table-row">
+      <div class="project-cell">
+        <img src="hub-cultural.jpg" alt="Hub Cultural">
+        <div>
+          <h3>Hub Cultural</h3>
+          <p>Cultura • ADS</p>
+        </div>
+      </div>
+
+      <div class="teacher-cell">
+        <div class="avatar">S</div>
+        <div>
+          <p>Sônia Gomes</p>
+          <span>Avaliadora</span>
+        </div>
+      </div>
+
+      <div>
+        <span class="badge gray">Pendente</span>
+        <p class="small">Aguardando avaliação</p>
+      </div>
+
+      <strong>-</strong>
+      <p>02/06/2026</p>
+
+      <div class="actions">
+        <button><i class="fa-regular fa-eye"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="tip-banner">
+    <div>
+      <i class="fa-regular fa-lightbulb"></i>
+    </div>
+
+    <div>
+      <h3>Dica</h3>
+      <p>Revise os feedbacks dos avaliadores para melhorar seus projetos e aumentar suas chances de destaque.</p>
+    </div>
+
+    <button><i class="fa-solid fa-xmark"></i></button>
+  </section>
+
+</main>
+
+</body>
+</html>

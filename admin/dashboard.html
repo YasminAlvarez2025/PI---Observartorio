@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Painel Administrativo | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/admin-dashboard.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <a href="../index.html" class="logo">
+      <div class="logo-icon">◆</div>
+      <div>
+        <h2>Observatório</h2>
+        <span>Projetos Integradores</span>
+      </div>
+    </a>
+
+    <nav class="menu">
+      <a href="dashboard.html" class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
+      <a href="users.html"><i class="fa-solid fa-users"></i> Usuários</a>
+      <a href="projects.html"><i class="fa-regular fa-folder"></i> Projetos</a>
+      <a href="classes.html"><i class="fa-solid fa-graduation-cap"></i> Turmas</a>
+      <a href="reports.html"><i class="fa-solid fa-chart-simple"></i> Relatórios</a>
+      <a href="23.configuracoes-administrativo.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+    </nav>
+
+    <div class="support">
+      <i class="fa-solid fa-headset"></i>
+      <div>
+        <strong>Precisa de ajuda?</strong>
+        <a href="#">Fale com o suporte</a>
+      </div>
+    </div>
+
+    <a href="../auth/login.html" class="logout">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+      Sair
+    </a>
+
+  </aside>
+
+  <main class="dashboard">
+
+    <header class="topbar">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar usuários, projetos, turmas...">
+      </div>
+
+      <div class="user-area">
+        <div class="notification">
+          <i class="fa-regular fa-bell"></i>
+          <span>3</span>
+        </div>
+
+        <div class="user-avatar">C</div>
+
+        <div class="user-info">
+          <strong>Coordenador</strong>
+          <p>Administrador</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="welcome">
+      <div>
+        <span>Painel Administrativo</span>
+        <h1>Olá, coordenador!</h1>
+        <p>Gerencie usuários, projetos, turmas e acompanhe os indicadores gerais dos Projetos Integradores.</p>
+      </div>
+
+      <a href="#" class="report-btn">
+        <i class="fa-solid fa-file-arrow-down"></i>
+        Gerar relatório
+      </a>
+    </section>
+
+    <section class="stats-grid">
+
+      <div class="stat-card">
+        <i class="fa-solid fa-users"></i>
+        <div>
+          <h3>245</h3>
+          <p>Usuários cadastrados</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-regular fa-folder"></i>
+        <div>
+          <h3>89</h3>
+          <p>Projetos registrados</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div>
+          <h3>12</h3>
+          <p>Turmas ativas</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <div>
+          <h3>18</h3>
+          <p>Relatórios gerados</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="main-grid">
+
+      <div class="projects-area">
+
+        <div class="section-title">
+          <h2>Projetos recentes</h2>
+          <a href="#">Ver todos <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter active">Todos</button>
+          <button class="filter">Em avaliação</button>
+          <button class="filter">Aprovados</button>
+          <button class="filter">Destaques</button>
+          <button class="filter">Pendentes</button>
+        </div>
+
+        <div class="admin-table">
+
+          <div class="table-header">
+            <span>Projeto</span>
+            <span>Turma</span>
+            <span>Professor</span>
+            <span>Status</span>
+          </div>
+
+          <div class="table-row">
+            <span>Symploke</span>
+            <span>ADS 2A</span>
+            <span>Guibson</span>
+            <span class="status-tag green">Aprovado</span>
+          </div>
+
+          <div class="table-row">
+            <span>Olhos Abertos</span>
+            <span>ADS 3A</span>
+            <span>Juliana</span>
+            <span class="status-tag yellow">Em avaliação</span>
+          </div>
+
+          <div class="table-row">
+            <span>TechDocs</span>
+            <span>ADS 1A</span>
+            <span>Marcos</span>
+            <span class="status-tag blue">Destaque</span>
+          </div>
+
+          <div class="table-row">
+            <span>Hub Cultural</span>
+            <span>ADS 2B</span>
+            <span>Ana</span>
+            <span class="status-tag orange">Pendente</span>
+          </div>
+
+        </div>
+
+        <div class="impact-banner">
+          <i class="fa-solid fa-chart-pie"></i>
+
+          <div>
+            <h3>Acompanhamento geral</h3>
+            <p>Visualize desempenho das turmas, projetos avaliados, pendências e destaques do semestre.</p>
+          </div>
+
+          <a href="#">Ver indicadores</a>
+        </div>
+
+      </div>
+
+      <aside class="right-panel">
+
+        <div class="panel-card">
+          <h3>Gestão rápida</h3>
+
+          <div class="activity-item">
+            <i class="fa-solid fa-user-plus green-icon"></i>
+            <div>
+              <p>Cadastrar usuário</p>
+              <span>Aluno, professor ou administrador</span>
+            </div>
+          </div>
+
+          <div class="activity-item">
+            <i class="fa-regular fa-folder yellow-icon"></i>
+            <div>
+              <p>Gerenciar projetos</p>
+              <span>Aprovar, arquivar ou revisar</span>
+            </div>
+          </div>
+
+          <div class="activity-item">
+            <i class="fa-solid fa-file-export blue-icon"></i>
+            <div>
+              <p>Exportar relatórios</p>
+              <span>Dados gerais do semestre</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-card tip-card">
+          <h3><i class="fa-solid fa-chart-simple"></i> Indicador geral</h3>
+          <p>A turma ADS 2A possui o maior número de projetos aprovados no semestre.</p>
+        </div>
+
+        <div class="panel-card">
+          <h3>Relatórios disponíveis</h3>
+
+          <div class="activity-item">
+            <i class="fa-solid fa-file-arrow-down green-icon"></i>
+            <div>
+              <p>Relatório de projetos</p>
+              <span>Lista completa dos projetos</span>
+            </div>
+          </div>
+
+          <div class="activity-item">
+            <i class="fa-solid fa-file-lines yellow-icon"></i>
+            <div>
+              <p>Relatório de avaliações</p>
+              <span>Notas e comentários</span>
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

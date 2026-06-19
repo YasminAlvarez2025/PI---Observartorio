@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Avaliações | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/professor-evaluations.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<aside class="sidebar">
+
+  <a href="../index.html" class="logo">
+    <div class="logo-icon">◆</div>
+    <div>
+      <h2>Observatório</h2>
+      <span>de Projetos Integradores</span>
+    </div>
+  </a>
+
+  <nav class="menu">
+    <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <a href="projects.html"><i class="fa-regular fa-folder"></i> Projetos</a>
+    <a href="evaluations.html" class="active"><i class="fa-regular fa-clipboard"></i> Avaliações</a>
+    <a href="classes.html"><i class="fa-solid fa-filter"></i> Turmas</a>
+  <a href="highlights.html"><i class="fa-regular fa-star"></i> Destaques</a>
+    <a href="talent-map.html"><i class="fa-solid fa-users"></i> Mapa de Talentos</a>
+    <a href="18.configuracoes-professor.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+  </nav>
+
+  <div class="support">
+    <i class="fa-solid fa-headset"></i>
+    <div>
+      <strong>Precisa de ajuda?</strong>
+      <a href="#">Fale com o suporte</a>
+    </div>
+  </div>
+
+  <a href="../auth/login.html" class="logout">
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    Sair
+  </a>
+
+</aside>
+
+<main class="dashboard">
+
+  <header class="topbar">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Buscar projetos, equipes ou avaliações...">
+    </div>
+
+    <div class="user-area">
+      <div class="notification">
+        <i class="fa-regular fa-bell"></i>
+        <span>3</span>
+      </div>
+
+      <div class="user-avatar">G</div>
+
+      <div>
+        <strong>Guibson</strong>
+        <p>Professor</p>
+      </div>
+
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <section class="welcome">
+    <div>
+      <h1>Avaliações</h1>
+      <p>Gerencie avaliações, rubricas e feedbacks dos projetos.</p>
+    </div>
+
+    <a href="#" class="new-project">
+      <i class="fa-solid fa-plus"></i>
+      Nova avaliação
+    </a>
+  </section>
+
+  <section class="stats-grid">
+
+    <div class="stat-card">
+      <i class="fa-regular fa-file-lines"></i>
+      <div>
+        <h3>24</h3>
+        <p>Recebidas</p>
+        <span>Total de avaliações</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-clock"></i>
+      <div>
+        <h3>8</h3>
+        <p>Pendentes</p>
+        <span>Aguardando avaliação</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-pen-to-square"></i>
+      <div>
+        <h3>12</h3>
+        <p>Em análise</p>
+        <span>Avaliações iniciadas</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-circle-check"></i>
+      <div>
+        <h3>4</h3>
+        <p>Concluídas</p>
+        <span>Avaliações finalizadas</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="filter-section">
+
+    <div class="filter-field">
+      <select>
+        <option>Todas as turmas</option>
+        <option>ADS 1A</option>
+        <option>ADS 2A</option>
+        <option>ADS 3A</option>
+      </select>
+    </div>
+
+    <div class="filter-field">
+      <select>
+        <option>Todos os status</option>
+        <option>Pendente</option>
+        <option>Em avaliação</option>
+        <option>Concluída</option>
+      </select>
+    </div>
+
+    <div class="filter-field search-filter">
+      <input type="text" placeholder="Buscar avaliação, projeto ou equipe...">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+  </section>
+
+  <section class="evaluation-table">
+
+    <div class="evaluation-header">
+      <span>Projeto / Equipe</span>
+      <span>Avaliador</span>
+      <span>Status</span>
+      <span>Ação</span>
+    </div>
+
+    <article class="evaluation-row">
+      <div class="evaluation-project">
+        <div class="evaluation-logo">S</div>
+        <div>
+          <h3>Symploke</h3>
+          <p>ADS 2A • Equipe 03</p>
+          <span>Enviado em 15/05/2024 às 14:32</span>
+        </div>
+      </div>
+
+      <div class="evaluation-info">
+        <strong>Registro do avaliador</strong>
+        <p><i class="fa-regular fa-user"></i> Não atribuído</p>
+      </div>
+
+      <div>
+        <span class="eval-status pending">Pendente</span>
+      </div>
+
+      <a href="#" class="eval-button">
+        Avaliar com rubrica <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </article>
+
+    <article class="evaluation-row">
+      <div class="evaluation-project">
+        <div class="evaluation-logo eye">◉</div>
+        <div>
+          <h3>Olhos Abertos</h3>
+          <p>ADS 3A • Equipe 07</p>
+          <span>Iniciado em 14/05/2024 às 09:15</span>
+        </div>
+      </div>
+
+      <div class="evaluation-info">
+        <strong>Avaliadora</strong>
+        <p><i class="fa-regular fa-user"></i> Juliana Lima</p>
+      </div>
+
+      <div>
+        <span class="eval-status progress">Em avaliação</span>
+        <p class="rubric-progress">Rubrica preenchida: 60%</p>
+        <div class="progress-line">
+          <div style="width: 60%;"></div>
+        </div>
+      </div>
+
+      <a href="#" class="eval-button">
+        Continuar avaliação <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </article>
+
+    <article class="evaluation-row">
+      <div class="evaluation-project">
+        <div class="evaluation-logo tech">T</div>
+        <div>
+          <h3>TechDocs</h3>
+          <p>ADS 1A • Equipe 01</p>
+          <span>Avaliado em 10/05/2024 às 16:20</span>
+        </div>
+      </div>
+
+      <div class="evaluation-info">
+        <strong>Avaliador</strong>
+        <p><i class="fa-regular fa-user"></i> João Docente</p>
+      </div>
+
+      <div>
+        <span class="eval-status done">Concluída</span>
+        <p class="final-grade">Nota final: <strong>8,8</strong></p>
+      </div>
+
+      <a href="#" class="eval-button">
+        Ver avaliação <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </article>
+
+    <article class="evaluation-row">
+      <div class="evaluation-project">
+        <div class="evaluation-logo eco">E</div>
+        <div>
+          <h3>EcoTrack</h3>
+          <p>ADS 2B • Equipe 04</p>
+          <span>Avaliado em 08/05/2024 às 11:05</span>
+        </div>
+      </div>
+
+      <div class="evaluation-info">
+        <strong>Avaliadora</strong>
+        <p><i class="fa-regular fa-user"></i> Mariana Souza</p>
+      </div>
+
+      <div>
+        <span class="eval-status done">Concluída</span>
+        <p class="final-grade">Nota final: <strong>9,2</strong></p>
+      </div>
+
+      <a href="#" class="eval-button">
+        Ver avaliação <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </article>
+
+    <article class="evaluation-row">
+      <div class="evaluation-project">
+        <div class="evaluation-logo pet">P</div>
+        <div>
+          <h3>PetCare</h3>
+          <p>ADS 1B • Equipe 02</p>
+          <span>Enviado em 16/05/2024 às 10:40</span>
+        </div>
+      </div>
+
+      <div class="evaluation-info">
+        <strong>Registro do avaliador</strong>
+        <p><i class="fa-regular fa-user"></i> Não atribuído</p>
+      </div>
+
+      <div>
+        <span class="eval-status pending">Pendente</span>
+      </div>
+
+      <a href="#" class="eval-button">
+        Avaliar com rubrica <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </article>
+
+  </section>
+
+</main>
+
+</body>
+</html>

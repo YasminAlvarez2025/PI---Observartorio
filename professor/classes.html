@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Turmas | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/professor-classes.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <a href="../index.html" class="logo">
+      <div class="logo-icon">◆</div>
+
+      <div>
+        <h2>Observatório</h2>
+        <span>de Projetos Integradores</span>
+      </div>
+    </a>
+
+  <nav class="menu">
+    <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <a href="projects.html"><i class="fa-regular fa-folder"></i> Projetos</a>
+    <a href="evaluations.html"><i class="fa-regular fa-clipboard"></i> Avaliações</a>
+    <a href="classes.html" class="active"><i class="fa-solid fa-filter"></i> Turmas</a>
+    <a href="highlights.html"><i class="fa-regular fa-star"></i> Destaques</a>
+    <a href="talent-map.html"><i class="fa-solid fa-users"></i> Mapa de Talentos</a>
+    <a href="18.configuracoes-professor.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+  </nav>
+
+    <div class="support">
+      <i class="fa-solid fa-headset"></i>
+
+      <div>
+        <strong>Precisa de ajuda?</strong>
+        <a href="#">Fale com o suporte</a>
+      </div>
+    </div>
+
+    <a href="../auth/login.html" class="logout">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+      Sair
+    </a>
+
+  </aside>
+
+  <main class="dashboard">
+
+    <header class="topbar">
+
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar turmas, alunos ou projetos...">
+      </div>
+
+      <div class="user-area">
+
+        <div class="notification">
+          <i class="fa-regular fa-bell"></i>
+          <span>3</span>
+        </div>
+
+        <div class="user-avatar">G</div>
+
+        <div>
+          <strong>Guibson</strong>
+          <p>Professor</p>
+        </div>
+
+        <i class="fa-solid fa-chevron-down"></i>
+
+      </div>
+
+    </header>
+
+    <section class="welcome">
+
+      <div>
+        <span class="page-label">Gestão Acadêmica</span>
+        <h1>Turmas</h1>
+        <p>Acompanhe alunos, projetos e desempenho das turmas.</p>
+      </div>
+
+      <a href="#" class="new-project">
+        <i class="fa-solid fa-plus"></i>
+        Nova Turma
+      </a>
+
+    </section>
+
+    <section class="stats-grid">
+
+      <div class="stat-card">
+        <i class="fa-solid fa-school"></i>
+
+        <div>
+          <h3>8</h3>
+          <p>Turmas Ativas</p>
+          <span>Período atual</span>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-users"></i>
+
+        <div>
+          <h3>112</h3>
+          <p>Alunos</p>
+          <span>Matriculados</span>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-regular fa-folder"></i>
+
+        <div>
+          <h3>24</h3>
+          <p>Projetos</p>
+          <span>Vinculados</span>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-chart-line"></i>
+
+        <div>
+          <h3>89%</h3>
+          <p>Média Geral</p>
+          <span>Desempenho</span>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="main-grid">
+
+      <div class="projects-area">
+
+        <div class="section-title">
+          <h2>Turmas cadastradas</h2>
+
+          <a href="#">
+            Ver todas
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter active">Todas</button>
+          <button class="filter">ADS</button>
+          <button class="filter">Informática</button>
+          <button class="filter">Jogos Digitais</button>
+          <button class="filter">Sistema de Informação</button>
+        </div>
+
+        <div class="class-grid">
+
+          <article class="class-card">
+
+            <div class="class-header">
+              <h3>ADS 2A</h3>
+              <span class="class-status">Ativa</span>
+            </div>
+
+            <div class="class-info">
+              <span>
+                <i class="fa-solid fa-users"></i>
+                32 alunos
+              </span>
+
+              <span>
+                <i class="fa-regular fa-folder"></i>
+                8 projetos
+              </span>
+            </div>
+
+            <div class="class-metrics">
+              <div class="metric">
+                <strong>4</strong>
+                <span>Pendentes</span>
+              </div>
+
+              <div class="metric">
+                <strong>3</strong>
+                <span>Destaques</span>
+              </div>
+
+              <div class="metric">
+                <strong>8.9</strong>
+                <span>Média</span>
+              </div>
+            </div>
+
+            <div class="class-footer">
+              <a href="#">
+                Visualizar turma
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+          </article>
+
+          <article class="class-card">
+
+            <div class="class-header">
+              <h3>ADS 3A</h3>
+              <span class="class-status">Ativa</span>
+            </div>
+
+            <div class="class-info">
+              <span>
+                <i class="fa-solid fa-users"></i>
+                29 alunos
+              </span>
+
+              <span>
+                <i class="fa-regular fa-folder"></i>
+                12 projetos
+              </span>
+            </div>
+
+            <div class="class-metrics">
+              <div class="metric">
+                <strong>7</strong>
+                <span>Pendentes</span>
+              </div>
+
+              <div class="metric">
+                <strong>5</strong>
+                <span>Destaques</span>
+              </div>
+
+              <div class="metric">
+                <strong>8.5</strong>
+                <span>Média</span>
+              </div>
+            </div>
+
+            <div class="class-footer">
+              <a href="#">
+                Visualizar turma
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+          </article>
+
+          <article class="class-card">
+
+            <div class="class-header">
+              <h3>Informática 1A</h3>
+              <span class="class-status">Ativa</span>
+            </div>
+
+            <div class="class-info">
+              <span>
+                <i class="fa-solid fa-users"></i>
+                35 alunos
+              </span>
+
+              <span>
+                <i class="fa-regular fa-folder"></i>
+                7 projetos
+              </span>
+            </div>
+
+            <div class="class-metrics">
+              <div class="metric">
+                <strong>2</strong>
+                <span>Pendentes</span>
+              </div>
+
+              <div class="metric">
+                <strong>6</strong>
+                <span>Destaques</span>
+              </div>
+
+              <div class="metric">
+                <strong>9.1</strong>
+                <span>Média</span>
+              </div>
+            </div>
+
+            <div class="class-footer">
+              <a href="#">
+                Visualizar turma
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+      <aside class="right-panel">
+
+        <div class="panel-card">
+          <h3>Turmas destaque</h3>
+
+          <div class="activity-item">
+            <i class="fa-solid fa-trophy green-icon"></i>
+
+            <div>
+              <p>ADS 2A possui a maior média geral</p>
+              <span>8.9 pontos</span>
+            </div>
+          </div>
+
+          <div class="activity-item">
+            <i class="fa-solid fa-users blue-icon"></i>
+
+            <div>
+              <p>Informática 1A possui mais alunos</p>
+              <span>35 matriculados</span>
+            </div>
+          </div>
+
+          <div class="activity-item">
+            <i class="fa-regular fa-folder yellow-icon"></i>
+
+            <div>
+              <p>ADS 3A possui mais projetos</p>
+              <span>12 projetos</span>
+            </div>
+          </div>
+
+        </div>
+
+      </aside>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

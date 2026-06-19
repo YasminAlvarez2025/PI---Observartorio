@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Turmas | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/admin-classes.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <a href="../index.html" class="logo">
+      <div class="logo-icon">◆</div>
+      <div>
+        <h2>Observatório</h2>
+        <span>Projetos Integradores</span>
+      </div>
+    </a>
+
+    <nav class="menu">
+      <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+      <a href="users.html"><i class="fa-solid fa-users"></i> Usuários</a>
+      <a href="projects.html"><i class="fa-regular fa-folder"></i> Projetos</a>
+      <a href="classes.html" class="active"><i class="fa-solid fa-graduation-cap"></i> Turmas</a>
+      <a href="reports.html"><i class="fa-solid fa-chart-simple"></i> Relatórios</a>
+      <a href="23.configuracoes-administrativo.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+    </nav>
+
+    <div class="support">
+      <i class="fa-solid fa-headset"></i>
+      <div>
+        <strong>Precisa de ajuda?</strong>
+        <a href="#">Fale com o suporte</a>
+      </div>
+    </div>
+
+    <a href="../auth/login.html" class="logout">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+      Sair
+    </a>
+
+  </aside>
+
+  <main class="dashboard">
+
+    <header class="topbar">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar turmas, professores ou turnos...">
+      </div>
+
+      <div class="user-area">
+        <div class="notification">
+          <i class="fa-regular fa-bell"></i>
+          <span>3</span>
+        </div>
+
+        <div class="user-avatar">C</div>
+
+        <div class="user-info">
+          <strong>Coordenador</strong>
+          <p>Administrador</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-header">
+      <div>
+        <span>Gestão de Turmas</span>
+        <h1>Turmas</h1>
+        <p>Organize as turmas ativas, acompanhe professores responsáveis e monitore os projetos por período.</p>
+      </div>
+
+      <a href="#" class="new-class-btn">
+        <i class="fa-solid fa-plus"></i>
+        Nova turma
+      </a>
+    </section>
+
+    <section class="stats-grid">
+
+      <div class="stat-card">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div>
+          <h3>12</h3>
+          <p>Turmas ativas</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-users"></i>
+        <div>
+          <h3>245</h3>
+          <p>Alunos vinculados</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-regular fa-folder"></i>
+        <div>
+          <h3>89</h3>
+          <p>Projetos cadastrados</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-chalkboard-user"></i>
+        <div>
+          <h3>18</h3>
+          <p>Professores</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="classes-section">
+
+      <div class="section-title">
+        <h2>Lista de turmas</h2>
+        <a href="#">Ver todas <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter active">Todas</button>
+        <button class="filter">Manhã</button>
+        <button class="filter">Tarde</button>
+        <button class="filter">Noite</button>
+        <button class="filter">Ativas</button>
+      </div>
+
+      <div class="classes-grid">
+
+        <div class="class-card">
+          <div class="class-top">
+            <div class="class-icon">ADS</div>
+            <span class="status active-status">Ativa</span>
+          </div>
+
+          <h3>ADS 2A</h3>
+          <p>Análise e Desenvolvimento de Sistemas</p>
+
+          <div class="class-info">
+            <span><i class="fa-solid fa-user-tie"></i> Prof. Guibson</span>
+            <span><i class="fa-solid fa-clock"></i> Noite</span>
+            <span><i class="fa-solid fa-calendar"></i> 2026.1</span>
+          </div>
+
+          <div class="class-footer">
+            <strong>18 projetos</strong>
+            <a href="#">Detalhes</a>
+          </div>
+        </div>
+
+        <div class="class-card">
+          <div class="class-top">
+            <div class="class-icon">ADS</div>
+            <span class="status active-status">Ativa</span>
+          </div>
+
+          <h3>ADS 3A</h3>
+          <p>Análise e Desenvolvimento de Sistemas</p>
+
+          <div class="class-info">
+            <span><i class="fa-solid fa-user-tie"></i> Profª Juliana</span>
+            <span><i class="fa-solid fa-clock"></i> Noite</span>
+            <span><i class="fa-solid fa-calendar"></i> 2026.1</span>
+          </div>
+
+          <div class="class-footer">
+            <strong>14 projetos</strong>
+            <a href="#">Detalhes</a>
+          </div>
+        </div>
+
+        <div class="class-card">
+          <div class="class-top">
+            <div class="class-icon">ADS</div>
+            <span class="status pending-status">Em ajuste</span>
+          </div>
+
+          <h3>ADS 1A</h3>
+          <p>Análise e Desenvolvimento de Sistemas</p>
+
+          <div class="class-info">
+            <span><i class="fa-solid fa-user-tie"></i> Prof. Marcos</span>
+            <span><i class="fa-solid fa-clock"></i> Tarde</span>
+            <span><i class="fa-solid fa-calendar"></i> 2026.1</span>
+          </div>
+
+          <div class="class-footer">
+            <strong>11 projetos</strong>
+            <a href="#">Detalhes</a>
+          </div>
+        </div>
+
+        <div class="class-card">
+          <div class="class-top">
+            <div class="class-icon">ADS</div>
+            <span class="status active-status">Ativa</span>
+          </div>
+
+          <h3>ADS 2B</h3>
+          <p>Análise e Desenvolvimento de Sistemas</p>
+
+          <div class="class-info">
+            <span><i class="fa-solid fa-user-tie"></i> Profª Ana</span>
+            <span><i class="fa-solid fa-clock"></i> Manhã</span>
+            <span><i class="fa-solid fa-calendar"></i> 2026.1</span>
+          </div>
+
+          <div class="class-footer">
+            <strong>16 projetos</strong>
+            <a href="#">Detalhes</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Oportunidades | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/student-opportunities.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<aside class="sidebar">
+
+  <a href="../index.html" class="logo">
+    <div class="logo-icon">◆</div>
+    <div>
+      <h2>Observatório</h2>
+      <span>de Projetos Integradores</span>
+    </div>
+  </a>
+
+  <nav class="menu">
+    <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <a href="my-projects.html"><i class="fa-regular fa-folder"></i> Meus Projetos</a>
+    <a href="new-project.html"><i class="fa-solid fa-plus"></i> Novo Projeto</a>
+    <a href="evaluations.html"><i class="fa-regular fa-clipboard"></i> Avaliações</a>
+    <a href="portfolio.html"><i class="fa-regular fa-id-card"></i> Portfólio</a>
+    <a href="opportunities.html" class="active"><i class="fa-regular fa-briefcase"></i> Oportunidades</a>
+    <a href="profile.html"><i class="fa-regular fa-user"></i> Perfil</a>
+    <a href="11.configuracoes.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+  </nav>
+
+  <div class="support">
+    <i class="fa-solid fa-headset"></i>
+    <div>
+      <strong>Precisa de ajuda?</strong>
+      <p>Nossa equipe está pronta para apoiar.</p>
+      <a href="#">Abrir atendimento →</a>
+    </div>
+  </div>
+
+  <a href="../auth/login.html" class="logout">
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    Sair
+  </a>
+
+</aside>
+
+<main class="dashboard">
+
+  <header class="topbar">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Buscar oportunidades, empresas ou áreas...">
+    </div>
+
+    <div class="user-area">
+      <div class="notification">
+        <i class="fa-regular fa-bell"></i>
+        <span>3</span>
+      </div>
+
+      <div class="user-avatar">A</div>
+
+      <div>
+        <strong>Alice</strong>
+        <p>Aluna</p>
+      </div>
+
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div>
+      <h1>Oportunidades</h1>
+      <p>Encontre oportunidades alinhadas ao seu portfólio e desenvolva sua carreira.</p>
+    </div>
+
+    <div class="match-card">
+      <i class="fa-solid fa-arrow-trend-up"></i>
+      <p>Seu perfil está compatível com <strong>87%</strong> das oportunidades disponíveis.</p>
+    </div>
+  </section>
+
+  <section class="stats-grid">
+
+    <div class="stat-card green-card">
+      <i class="fa-regular fa-briefcase"></i>
+      <div>
+        <h3>12</h3>
+        <p>Vagas compatíveis</p>
+        <span>Novas oportunidades</span>
+      </div>
+    </div>
+
+    <div class="stat-card yellow-card">
+      <i class="fa-regular fa-building"></i>
+      <div>
+        <h3>4</h3>
+        <p>Empresas interessadas</p>
+        <span>Entraram em contato</span>
+      </div>
+    </div>
+
+    <div class="stat-card blue-card">
+      <i class="fa-regular fa-user"></i>
+      <div>
+        <h3>3</h3>
+        <p>Processos em andamento</p>
+        <span>Candidaturas ativas</span>
+      </div>
+    </div>
+
+    <div class="stat-card purple-card">
+      <i class="fa-solid fa-bullseye"></i>
+      <div>
+        <h3>87%</h3>
+        <p>Compatibilidade média</p>
+        <span>Com as vagas</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="filters-row">
+    <div class="filters">
+      <a href="#" class="active">Todos</a>
+      <a href="#">Estágio</a>
+      <a href="#">Emprego</a>
+      <a href="#">Pesquisa</a>
+      <a href="#">Freelance</a>
+      <a href="#">Residência</a>
+    </div>
+
+    <div class="mini-search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Buscar oportunidades...">
+    </div>
+
+    <button class="filter-button">
+      <i class="fa-solid fa-filter"></i>
+      Mais filtros
+      <i class="fa-solid fa-chevron-down"></i>
+    </button>
+  </section>
+
+  <section class="content-grid">
+
+    <div class="opportunities-list">
+
+      <article class="opportunity-card">
+        <div class="company-logo text-logo porto">PORTO<br>DIGITAL</div>
+
+        <div class="opportunity-content">
+          <div class="opportunity-top">
+            <div>
+              <span class="company">Porto Digital</span>
+              <h2>Desenvolvedor Front-End Jr</h2>
+
+              <div class="opportunity-meta">
+                <span><i class="fa-solid fa-location-dot"></i> Recife, PE</span>
+                <span><i class="fa-solid fa-laptop"></i> Híbrido</span>
+                <span><i class="fa-solid fa-graduation-cap"></i> Estágio</span>
+              </div>
+            </div>
+
+            <span class="match">92% Match</span>
+          </div>
+
+          <p>
+            Buscamos estudantes com interesse em desenvolvimento web, HTML, CSS,
+            JavaScript e trabalho em equipe.
+          </p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+          </div>
+
+          <div class="actions">
+            <a href="#" class="btn-secondary">Ver detalhes</a>
+            <a href="#" class="btn-primary">Candidatar-se</a>
+          </div>
+        </div>
+
+        <button class="save">
+          <i class="fa-regular fa-bookmark"></i>
+        </button>
+      </article>
+
+      <article class="opportunity-card">
+        <div class="company-logo text-logo cesar">CESAR</div>
+
+        <div class="opportunity-content">
+          <div class="opportunity-top">
+            <div>
+              <span class="company">CESAR</span>
+              <h2>Programa de Residência em Tecnologia</h2>
+
+              <div class="opportunity-meta">
+                <span><i class="fa-solid fa-location-dot"></i> Recife, PE</span>
+                <span><i class="fa-solid fa-building"></i> Presencial</span>
+                <span><i class="fa-solid fa-certificate"></i> Residência</span>
+              </div>
+            </div>
+
+            <span class="match">88% Match</span>
+          </div>
+
+          <p>
+            Programa intensivo para estudantes que desejam desenvolver soluções
+            inovadoras e transformar realidades.
+          </p>
+
+          <div class="tags">
+            <span>Inovação</span>
+            <span>Tecnologia</span>
+            <span>Impacto Social</span>
+          </div>
+
+          <div class="actions">
+            <a href="#" class="btn-secondary">Ver detalhes</a>
+            <a href="#" class="btn-outline">Salvar</a>
+          </div>
+        </div>
+
+        <button class="save">
+          <i class="fa-regular fa-bookmark"></i>
+        </button>
+      </article>
+
+      <article class="opportunity-card">
+        <div class="company-logo text-logo stone">stone</div>
+
+        <div class="opportunity-content">
+          <div class="opportunity-top">
+            <div>
+              <span class="company">Stone</span>
+              <h2>Analista de Dados Jr</h2>
+
+              <div class="opportunity-meta">
+                <span><i class="fa-solid fa-location-dot"></i> Remoto</span>
+                <span><i class="fa-solid fa-laptop-code"></i> Estágio</span>
+              </div>
+            </div>
+
+            <span class="match">85% Match</span>
+          </div>
+
+          <p>
+            Atuação com análise de dados, construção de dashboards e apoio em projetos
+            de inteligência de negócio.
+          </p>
+
+          <div class="tags">
+            <span>Dados</span>
+            <span>Dashboard</span>
+            <span>Power BI</span>
+          </div>
+
+          <div class="actions">
+            <a href="#" class="btn-secondary">Ver detalhes</a>
+            <a href="#" class="btn-outline">Salvar</a>
+          </div>
+        </div>
+
+        <button class="save">
+          <i class="fa-regular fa-bookmark"></i>
+        </button>
+      </article>
+
+    </div>
+
+    <aside class="right-panel">
+
+      <div class="panel-card recommended">
+        <div class="panel-title">
+          <h3>Recomendado para você</h3>
+          <i class="fa-regular fa-star"></i>
+        </div>
+
+        <h2>Bolsa Porto Digital</h2>
+        <p>Prazo: 15 dias</p>
+
+        <span class="compatibility">Compatibilidade: 94%</span>
+
+        <h4>Por que recomendamos?</h4>
+
+        <ul>
+          <li><i class="fa-solid fa-check"></i> Seus projetos têm foco em tecnologia</li>
+          <li><i class="fa-solid fa-check"></i> Média acima de 9.0 nas avaliações</li>
+          <li><i class="fa-solid fa-check"></i> Portfólio atualizado recentemente</li>
+        </ul>
+
+        <a href="#" class="btn-secondary">Ver oportunidade</a>
+      </div>
+
+      <div class="panel-card">
+        <h3>Projetos mais valorizados</h3>
+
+        <div class="ranking-item">
+          <div class="rank-icon purple">
+            <i class="fa-regular fa-star"></i>
+          </div>
+
+          <div>
+            <strong>Symploke</strong>
+            <p>Compatível com 8 vagas</p>
+          </div>
+
+          <span>1º</span>
+        </div>
+
+        <div class="ranking-item">
+          <div class="rank-icon blue">
+            <i class="fa-regular fa-file-lines"></i>
+          </div>
+
+          <div>
+            <strong>TechDocs</strong>
+            <p>Compatível com 5 vagas</p>
+          </div>
+
+          <span>2º</span>
+        </div>
+
+        <div class="ranking-item">
+          <div class="rank-icon green">
+            <i class="fa-regular fa-circle-check"></i>
+          </div>
+
+          <div>
+            <strong>Olhos Abertos</strong>
+            <p>Compatível com 4 vagas</p>
+          </div>
+
+          <span>3º</span>
+        </div>
+
+        <a href="#" class="panel-link">Ver todos os projetos</a>
+      </div>
+
+    </aside>
+
+  </section>
+
+</main>
+
+</body>
+</html>

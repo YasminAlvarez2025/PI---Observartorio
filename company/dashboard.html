@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Painel Empresa | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/company-dashboard.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+
+    <a href="../index.html" class="logo">
+      <div class="logo-icon">◆</div>
+      <div>
+        <h2>Observatório</h2>
+        <span>Empresas Parceiras</span>
+      </div>
+    </a>
+
+    <nav class="menu">
+      <a href="dashboard.html" class="active">
+        <i class="fa-solid fa-house"></i> Dashboard
+      </a>
+      <a href="projects.html">
+        <i class="fa-regular fa-folder"></i> Projetos
+      </a>
+      <a href="talents.html">
+        <i class="fa-solid fa-user-graduate"></i> Talentos
+      </a>
+      <a href="26.tecnologias-empresa.html">
+        <i class="fa-solid fa-code"></i> Tecnologias
+      </a>
+      <a href="highlights.html">
+        <i class="fa-solid fa-star"></i> Destaques
+      </a>
+      <a href="28.configuracoes-empresa.html">
+        <i class="fa-solid fa-gear"></i> Configurações
+      </a>
+    </nav>
+
+    <div class="support">
+      <i class="fa-solid fa-building"></i>
+      <div>
+        <strong>Empresa parceira</strong>
+        <a href="#">Ver perfil institucional</a>
+      </div>
+    </div>
+
+    <a href="../auth/login.html" class="logout">
+      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+      Sair
+    </a>
+
+  </aside>
+
+  <main class="dashboard">
+
+    <header class="topbar">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar projetos, tecnologias ou talentos...">
+      </div>
+
+      <div class="user-area">
+        <div class="notification">
+          <i class="fa-regular fa-bell"></i>
+          <span>2</span>
+        </div>
+
+        <div class="user-avatar">E</div>
+
+        <div class="user-info">
+          <strong>Empresa Parceira</strong>
+          <p>Recrutamento</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-company">
+      <div>
+        <span>Portal da Empresa</span>
+        <h1>Encontre projetos e talentos em formação</h1>
+        <p>
+          Explore projetos aprovados, conheça habilidades técnicas dos alunos e identifique talentos com potencial para o mercado.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#" class="primary-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Explorar projetos
+          </a>
+
+          <a href="#" class="secondary-btn">
+            <i class="fa-solid fa-user-graduate"></i>
+            Ver talentos
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Compatibilidade com mercado</h3>
+        <p>Projetos organizados por tecnologia, área de atuação e potencial profissional.</p>
+      </div>
+    </section>
+
+    <section class="stats-grid">
+
+      <div class="stat-card">
+        <i class="fa-regular fa-folder"></i>
+        <div>
+          <h3>89</h3>
+          <p>Projetos disponíveis</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-user-graduate"></i>
+        <div>
+          <h3>132</h3>
+          <p>Alunos mapeados</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-code"></i>
+        <div>
+          <h3>24</h3>
+          <p>Tecnologias usadas</p>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <i class="fa-solid fa-star"></i>
+        <div>
+          <h3>8</h3>
+          <p>Projetos destaque</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="content-grid">
+
+      <div class="projects-area">
+
+        <div class="section-title">
+          <h2>Projetos recomendados</h2>
+          <a href="#">Ver todos <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter active">Todos</button>
+          <button class="filter">Web</button>
+          <button class="filter">Dados</button>
+          <button class="filter">Impacto social</button>
+          <button class="filter">UX/UI</button>
+        </div>
+
+        <div class="project-list">
+
+          <article class="project-card">
+            <div class="project-image gradient-one">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+
+            <div class="project-content">
+              <span class="tag">Projeto destaque</span>
+              <h3>Symploke</h3>
+              <p>Plataforma para conexão entre projetos acadêmicos, avaliação e portfólio profissional.</p>
+
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="project-footer">
+                <strong>ADS 2A</strong>
+                <a href="#">Ver projeto</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image gradient-two">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+
+            <div class="project-content">
+              <span class="tag">Impacto social</span>
+              <h3>Olhos Abertos</h3>
+              <p>Solução digital voltada à conscientização, denúncia e orientação sobre segurança social.</p>
+
+              <div class="tech-list">
+                <span>Figma</span>
+                <span>React</span>
+                <span>Firebase</span>
+              </div>
+
+              <div class="project-footer">
+                <strong>ADS 3A</strong>
+                <a href="#">Ver projeto</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image gradient-three">
+              <i class="fa-solid fa-database"></i>
+            </div>
+
+            <div class="project-content">
+              <span class="tag">Dados</span>
+              <h3>TechDocs</h3>
+              <p>Sistema para organização de documentação técnica, relatórios e registros de projetos.</p>
+
+              <div class="tech-list">
+                <span>Python</span>
+                <span>MySQL</span>
+                <span>Power BI</span>
+              </div>
+
+              <div class="project-footer">
+                <strong>ADS 1A</strong>
+                <a href="#">Ver projeto</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+      <aside class="talent-panel">
+
+        <div class="panel-card">
+          <h3>Mapa de talentos</h3>
+
+          <div class="talent-item">
+            <div class="talent-avatar">YC</div>
+            <div>
+              <p>Julia Cabral</p>
+              <span>HTML • CSS • JavaScript</span>
+            </div>
+          </div>
+
+          <div class="talent-item">
+            <div class="talent-avatar">JS</div>
+            <div>
+              <p>Ricardo Malta</p>
+              <span>Python • Banco de Dados</span>
+            </div>
+          </div>
+
+          <div class="talent-item">
+            <div class="talent-avatar">AL</div>
+            <div>
+              <p>Artur Lima</p>
+              <span>UX/UI • Figma • Pesquisa</span>
+            </div>
+          </div>
+
+          <a href="#" class="panel-link">Ver todos os talentos</a>
+        </div>
+
+        <div class="panel-card">
+          <h3>Tecnologias em alta</h3>
+
+          <div class="skill-item">
+            <span>JavaScript</span>
+            <strong>42 projetos</strong>
+          </div>
+
+          <div class="skill-item">
+            <span>Python</span>
+            <strong>31 projetos</strong>
+          </div>
+
+          <div class="skill-item">
+            <span>MySQL</span>
+            <strong>28 projetos</strong>
+          </div>
+
+          <div class="skill-item">
+            <span>Figma</span>
+            <strong>23 projetos</strong>
+          </div>
+        </div>
+
+        <div class="panel-card highlight-card">
+          <h3><i class="fa-solid fa-lightbulb"></i> Insight</h3>
+          <p>
+            Os projetos com foco em dados e automação apresentam maior compatibilidade com demandas atuais de empresas parceiras.
+          </p>
+        </div>
+
+      </aside>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

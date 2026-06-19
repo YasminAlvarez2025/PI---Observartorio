@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Destaques | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/professor-highlights.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<aside class="sidebar">
+
+  <a href="../index.html" class="logo">
+    <div class="logo-icon">◆</div>
+    <div>
+      <h2>Observatório</h2>
+      <span>de Projetos Integradores</span>
+    </div>
+  </a>
+
+   <nav class="menu">
+    <a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <a href="projects.html"><i class="fa-regular fa-folder"></i> Projetos</a>
+    <a href="evaluations.html"><i class="fa-regular fa-clipboard"></i> Avaliações</a>
+    <a href="classes.html"><i class="fa-solid fa-filter"></i> Turmas</a>
+    <a href="highlights.html" class="active"><i class="fa-regular fa-star"></i> Destaques</a>
+    <a href="talent-map.html"><i class="fa-solid fa-users"></i> Mapa de Talentos</a>
+    <a href="18.configuracoes-professor.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+  </nav>
+
+  <div class="support">
+    <i class="fa-solid fa-headset"></i>
+    <div>
+      <strong>Precisa de ajuda?</strong>
+      <a href="#">Fale com o suporte</a>
+    </div>
+  </div>
+
+  <a href="../auth/login.html" class="logout">
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    Sair
+  </a>
+
+</aside>
+
+<main class="dashboard">
+
+  <header class="topbar">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Buscar projetos, alunos, turmas e avaliações...">
+    </div>
+
+    <div class="user-area">
+      <div class="notification">
+        <i class="fa-regular fa-bell"></i>
+        <span>3</span>
+      </div>
+
+      <div class="user-avatar">G</div>
+
+      <div>
+        <strong>Guibson</strong>
+        <p>Professor</p>
+      </div>
+
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <section class="welcome">
+    <div>
+      <span class="page-label">Gestão Acadêmica</span>
+      <h1>Destaques</h1>
+      <p>Projetos e alunos que se destacaram pelo desempenho, inovação e colaboração.</p>
+    </div>
+
+    <a href="#" class="new-project">
+      <i class="fa-regular fa-star"></i>
+      Novo Destaque
+    </a>
+  </section>
+
+  <section class="stats-grid">
+
+    <div class="stat-card">
+      <i class="fa-solid fa-trophy"></i>
+      <div>
+        <h3>18</h3>
+        <p>Projetos Destaque</p>
+        <span>Este semestre</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-solid fa-users"></i>
+      <div>
+        <h3>24</h3>
+        <p>Alunos Destaque</p>
+        <span>Este semestre</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-solid fa-award"></i>
+      <div>
+        <h3>36</h3>
+        <p>Selos Atribuídos</p>
+        <span>Este semestre</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-solid fa-arrow-trend-up"></i>
+      <div>
+        <h3>9.7</h3>
+        <p>Maior Nota</p>
+        <span>Entre os projetos</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="main-grid">
+
+    <div class="projects-area">
+
+      <div class="section-title">
+        <h2>Projetos em Destaque</h2>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter active">Todos</button>
+        <button class="filter">Inovação</button>
+        <button class="filter">Impacto Social</button>
+        <button class="filter">Tecnologia</button>
+        <button class="filter">Design</button>
+      </div>
+
+      <div class="highlight-grid">
+
+        <article class="highlight-card">
+          <div class="highlight-image gradient-purple">
+            <span class="badge">Inovação</span>
+            <span class="score"><i class="fa-solid fa-star"></i> 9.7</span>
+          </div>
+
+          <div class="highlight-icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+
+          <div class="highlight-info">
+            <h3>App Conecta+</h3>
+            <span>ADS 2A</span>
+            <p>Aplicativo que conecta instituições e voluntários para ações sociais.</p>
+          </div>
+
+          <div class="highlight-footer">
+            <span><i class="fa-solid fa-users"></i> 5 integrantes</span>
+            <a href="#">Ver projeto <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="highlight-card">
+          <div class="highlight-image gradient-green">
+            <span class="badge">Sustentabilidade</span>
+            <span class="score"><i class="fa-solid fa-star"></i> 9.4</span>
+          </div>
+
+          <div class="highlight-icon">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+
+          <div class="highlight-info">
+            <h3>EcoMonitor</h3>
+            <span>Informática 1A</span>
+            <p>Sistema de monitoramento de qualidade do ar utilizando IoT.</p>
+          </div>
+
+          <div class="highlight-footer">
+            <span><i class="fa-solid fa-users"></i> 4 integrantes</span>
+            <a href="#">Ver projeto <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="highlight-card">
+          <div class="highlight-image gradient-blue">
+            <span class="badge">Tecnologia</span>
+            <span class="score"><i class="fa-solid fa-star"></i> 9.2</span>
+          </div>
+
+          <div class="highlight-icon">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+
+          <div class="highlight-info">
+            <h3>IA na Educação</h3>
+            <span>ADS 3A</span>
+            <p>Plataforma de apoio ao aprendizado com inteligência artificial.</p>
+          </div>
+
+          <div class="highlight-footer">
+            <span><i class="fa-solid fa-users"></i> 6 integrantes</span>
+            <a href="#">Ver projeto <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="section-title student-title">
+        <h2>Alunos em Destaque</h2>
+      </div>
+
+      <div class="student-grid">
+
+        <article class="student-card">
+          <div class="student-avatar">A</div>
+          <div>
+            <h4>Ana Beatriz Silva <span>9.6</span></h4>
+            <p>ADS 2A</p>
+            <small><i class="fa-solid fa-trophy"></i> Destaque em Inovação</small>
+          </div>
+          <a href="#">Ver perfil</a>
+        </article>
+
+        <article class="student-card">
+          <div class="student-avatar">L</div>
+          <div>
+            <h4>Lucas Andrade <span>9.4</span></h4>
+            <p>Informática 1A</p>
+            <small><i class="fa-solid fa-trophy"></i> Destaque em Liderança</small>
+          </div>
+          <a href="#">Ver perfil</a>
+        </article>
+
+        <article class="student-card">
+          <div class="student-avatar">M</div>
+          <div>
+            <h4>Mariana Costa <span>9.3</span></h4>
+            <p>ADS 3A</p>
+            <small><i class="fa-solid fa-trophy"></i> Destaque em Colaboração</small>
+          </div>
+          <a href="#">Ver perfil</a>
+        </article>
+
+      </div>
+
+    </div>
+
+    <aside class="right-panel">
+
+      <div class="panel-card">
+        <h3>Ranking de Projetos</h3>
+
+        <div class="ranking-item">
+          <span>1</span>
+          <div>
+            <strong>App Conecta+</strong>
+            <p>ADS 2A</p>
+          </div>
+          <b>9.7</b>
+        </div>
+
+        <div class="ranking-item">
+          <span>2</span>
+          <div>
+            <strong>EcoMonitor</strong>
+            <p>Informática 1A</p>
+          </div>
+          <b>9.4</b>
+        </div>
+
+        <div class="ranking-item">
+          <span>3</span>
+          <div>
+            <strong>IA na Educação</strong>
+            <p>ADS 3A</p>
+          </div>
+          <b>9.2</b>
+        </div>
+
+        <div class="ranking-item">
+          <span>4</span>
+          <div>
+            <strong>Green Energy</strong>
+            <p>Jogos Digitais 2A</p>
+          </div>
+          <b>9.0</b>
+        </div>
+
+        <a href="#" class="outline-btn">Ver ranking completo</a>
+      </div>
+
+      <div class="panel-card">
+        <h3>Selos em Destaque</h3>
+
+        <div class="seal-grid">
+          <div class="seal-item">
+            <i class="fa-solid fa-leaf green-icon"></i>
+            <strong>8</strong>
+            <span>Sustentabilidade</span>
+          </div>
+
+          <div class="seal-item">
+            <i class="fa-regular fa-lightbulb yellow-icon"></i>
+            <strong>12</strong>
+            <span>Inovação</span>
+          </div>
+
+          <div class="seal-item">
+            <i class="fa-solid fa-users blue-icon"></i>
+            <strong>10</strong>
+            <span>Impacto Social</span>
+          </div>
+        </div>
+
+        <a href="#" class="outline-btn">Ver todos os selos</a>
+      </div>
+
+    </aside>
+
+  </section>
+
+</main>
+
+</body>
+</html>

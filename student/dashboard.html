@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Painel do Aluno | Observatório</title>
+
+  <link rel="stylesheet" href="../assets/css/student-dashboard.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<aside class="sidebar">
+
+  <a href="../index.html" class="logo">
+    <div class="logo-icon">◆</div>
+    <div>
+      <h2>Observatório</h2>
+      <span>de Projetos Integradores</span>
+    </div>
+  </a>
+
+  <nav class="menu">
+    <a href="dashboard.html" class="active"><i class="fa-solid fa-house"></i> Dashboard</a>
+    <a href="my-projects.html"><i class="fa-regular fa-folder"></i> Meus Projetos</a>
+    <a href="new-project.html"><i class="fa-solid fa-plus"></i> Novo Projeto</a>
+    <a href="evaluations.html"><i class="fa-regular fa-clipboard"></i> Avaliações</a>
+    <a href="portfolio.html"><i class="fa-regular fa-id-card"></i> Portfólio</a>
+    <a href="opportunities.html"><i class="fa-regular fa-briefcase"></i> Oportunidades</a>
+    <a href="profile.html"><i class="fa-regular fa-user"></i> Perfil</a>
+    <a href="11.configuracoes.html"><i class="fa-solid fa-gear"></i> Configurações</a>
+  </nav>
+
+  <div class="support">
+    <i class="fa-solid fa-headset"></i>
+    <div>
+      <strong>Precisa de ajuda?</strong>
+      <a href="#">Fale com o suporte</a>
+    </div>
+  </div>
+
+  <a href="../auth/login.html" class="logout">
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    Sair
+  </a>
+
+</aside>
+
+<main class="dashboard">
+
+  <header class="topbar">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Buscar projetos, avaliações, oportunidades...">
+    </div>
+
+    <div class="user-area">
+      <div class="notification">
+        <i class="fa-regular fa-bell"></i>
+        <span>3</span>
+      </div>
+
+      <div class="user-avatar">A</div>
+
+      <div>
+        <strong>Alice</strong>
+        <p>Aluna</p>
+      </div>
+
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <section class="welcome">
+    <div>
+      <span class="page-label"></span>
+      <h1>Olá, Alice</h1>
+      <p>Acompanhe seus projetos, avaliações e oportunidades.</p>
+    </div>
+
+    <a href="new-project.html" class="new-project">
+      <i class="fa-solid fa-plus"></i>
+      Novo projeto
+    </a>
+  </section>
+
+  <section class="stats-grid">
+
+    <div class="stat-card">
+      <i class="fa-regular fa-folder"></i>
+      <div>
+        <h3>4</h3>
+        <p>Projetos enviados</p>
+        <span>Em andamento</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-circle-check"></i>
+      <div>
+        <h3>2</h3>
+        <p>Projetos aprovados</p>
+        <span>Publicados</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-star"></i>
+      <div>
+        <h3>9.2</h3>
+        <p>Média geral</p>
+        <span>Avaliações</span>
+      </div>
+    </div>
+
+    <div class="stat-card">
+      <i class="fa-regular fa-id-badge"></i>
+      <div>
+        <h3>8</h3>
+        <p>Certificados</p>
+        <span>Disponíveis</span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="main-grid">
+
+    <div class="projects-area">
+
+      <div class="section-title">
+        <h2>Meus projetos</h2>
+        <a href="meus-projetos.html">Ver todos <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="../assets/images/symploke.png" alt="Projeto Symploke">
+            <span class="status green">Aprovado</span>
+            <button class="favorite"><i class="fa-regular fa-star"></i></button>
+          </div>
+
+          <div class="project-info">
+            <h3>Symploke</h3>
+            <p class="meta">Educação • ADS</p>
+            <p>Plataforma de cursos profissionalizantes para grupos minoritários.</p>
+
+            <div class="project-details">
+              <span><i class="fa-solid fa-star"></i> 9.6</span>
+              <span>Avaliado em 15/05/2024</span>
+            </div>
+
+            <a href="#" class="details-link">Ver detalhes <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="../assets/images/olhosabertos.jpeg" alt="Projeto Olhos Abertos">
+            <span class="status yellow">Em avaliação</span>
+            <button class="favorite"><i class="fa-regular fa-star"></i></button>
+          </div>
+
+          <div class="project-info">
+            <h3>Olhos Abertos</h3>
+            <p class="meta">Tecnologia • ADS</p>
+            <p>Plataforma para facilitar denúncias por mulheres vítimas de assédio.</p>
+
+            <div class="project-details">
+              <span><i class="fa-regular fa-user"></i> Profa. Juliana Lima</span>
+              <span>Previsão 02/06/2024</span>
+            </div>
+
+            <a href="#" class="details-link">Ver detalhes <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="../assets/images/techdoc.jpeg" alt="Projeto TechDocs">
+            <span class="status blue">Publicação</span>
+            <button class="favorite"><i class="fa-regular fa-star"></i></button>
+          </div>
+
+          <div class="project-info">
+            <h3>TechDocs</h3>
+            <p class="meta">Tecnologia • ADS</p>
+            <p>Plataforma de repositórios de Projetos Integradores.</p>
+
+            <div class="project-details">
+              <span><i class="fa-solid fa-star"></i> 8.8</span>
+              <span>Avaliado em 10/05/2024</span>
+            </div>
+
+            <a href="#" class="details-link">Ver detalhes <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="impact-banner">
+        <div>
+          <i class="fa-solid fa-trophy"></i>
+        </div>
+
+        <div>
+          <h3>Transforme ideias em impacto.</h3>
+          <p>Continue desenvolvendo projetos que geram transformação e fortalecem seu portfólio acadêmico.</p>
+        </div>
+
+        <a href="oportunidades.html">
+          Explorar oportunidades <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <aside class="right-panel">
+
+      <div class="panel-card">
+        <h3>Atividades recentes</h3>
+
+        <div class="activity-item">
+          <i class="fa-regular fa-circle-check green-icon"></i>
+          <div>
+            <p>Projeto “Symploke” foi aprovado</p>
+            <span>Hoje, 10:24</span>
+          </div>
+        </div>
+
+        <div class="activity-item">
+          <i class="fa-regular fa-clock yellow-icon"></i>
+          <div>
+            <p>Avaliação de “Olhos Abertos” iniciada</p>
+            <span>Ontem, 16:45</span>
+          </div>
+        </div>
+
+        <div class="activity-item">
+          <i class="fa-solid fa-cloud-arrow-up blue-icon"></i>
+          <div>
+            <p>Novo documento enviado em “TechDocs”</p>
+            <span>Ontem, 14:30</span>
+          </div>
+        </div>
+
+        <a href="#">Ver todas atividades <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="panel-card tip-card">
+        <h3><i class="fa-regular fa-lightbulb"></i> Dica do dia</h3>
+        <p>
+          Revise os feedbacks dos avaliadores para melhorar seus projetos e aumentar suas chances de destaque.
+        </p>
+      </div>
+
+    </aside>
+
+  </section>
+
+</main>
+
+</body>
+</html>
